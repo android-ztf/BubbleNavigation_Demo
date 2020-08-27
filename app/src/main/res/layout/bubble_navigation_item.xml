@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- todo 气泡约束布局 使用流程同约束布局 -->
+<!--    <com.gauravk.bubblenavigation.BubbleNavigationConstraintView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        >-->
+<!--        &lt;!&ndash; todo 气泡导航栏view &ndash;&gt;-->
+<!--        <com.gauravk.bubblenavigation.BubbleToggleView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:bt_active="true"-->
+<!--            app:bt_badgeBackgroundColor="@color/green_active"-->
+<!--            app:bt_colorActive="@color/blue_active"-->
+<!--            app:bt_colorInactive="@color/blue_inactive"-->
+<!--            app:bt_icon="@drawable/ic_search"-->
+<!--            app:bt_shape="@drawable/transition_background_drawable_search"-->
+<!--            app:bt_title="@string/search"-->
+<!--            app:bt_padding="10dp"-->
+<!--            />-->
+<!--        &lt;!&ndash;-->
+<!--        TODO PS: 该View就是导航栏中的item，比如导航栏中有3个item，就必须写3个。最大只能写5个-->
+<!--        &ndash;&gt;-->
+<!--    </com.gauravk.bubblenavigation.BubbleNavigationConstraintView>-->
+
+    <!-- todo 气泡线性布局 使用流程同线性布局 -->
+    <com.gauravk.bubblenavigation.BubbleNavigationLinearView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+    </com.gauravk.bubblenavigation.BubbleNavigationLinearView>
+
+
+</LinearLayout>
